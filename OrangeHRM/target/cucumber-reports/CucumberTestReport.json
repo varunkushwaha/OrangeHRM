@@ -1,0 +1,104 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#without Examples Keyword"
+          }
+        ],
+        "line": 5,
+        "name": "Validate OrangeHrm Login Page Test",
+        "description": "",
+        "id": "orangehrm-application-test;validate-orangehrm-login-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18435368100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user open browser",
+            "match": {
+              "location": "LoginStepDef.user_open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 68018000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDef.user_is_on_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 395697800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "check Forgot Your Password link is present and enabled",
+            "match": {
+              "location": "LoginStepDef.check_Forgot_Your_Password_link_is_present_and_enabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3969656800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 12
+                },
+                {
+                  "val": "admin123",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginStepDef.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks login button",
+            "match": {
+              "location": "LoginStepDef.user_clicks_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHrm Application Test",
+    "description": "",
+    "id": "orangehrm-application-test",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login"
+      }
+    ]
+  }
+]
