@@ -9,7 +9,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
-@CucumberOptions(features= "E:\\New Workspace\\OrangeHRM\\Feature",  
+@CucumberOptions(features= "E:\\Git_Repo\\OrangeHRM\\OrangeHRM\\Feature",  
 glue = {"com.qa.stepDefination"},
 tags = {"~@Ignore"},
 monochrome = true, strict = true, dryRun = false,

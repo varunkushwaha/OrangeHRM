@@ -55,21 +55,21 @@ formatter.match({
   "location": "LoginStepDef.user_open_browser()"
 });
 formatter.result({
-  "duration": 18435368100,
+  "duration": 38754871100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDef.user_is_on_login_page()"
 });
 formatter.result({
-  "duration": 68018000,
+  "duration": 653883200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDef.check_Forgot_Your_Password_link_is_present_and_enabled()"
 });
 formatter.result({
-  "duration": 395697800,
+  "duration": 2148181100,
   "status": "passed"
 });
 formatter.match({
@@ -86,14 +86,14 @@ formatter.match({
   "location": "LoginStepDef.user_enter_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 3969656800,
+  "duration": 10902196300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDef.user_clicks_login_button()"
 });
 formatter.result({
-  "duration": 54000,
+  "duration": 78500,
   "status": "passed"
 });
 });

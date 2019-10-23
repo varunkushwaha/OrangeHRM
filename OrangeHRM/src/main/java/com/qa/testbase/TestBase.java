@@ -22,7 +22,7 @@ public class TestBase {
 	{
 		try {
 		//	String FilePath = "E:\\New Workspace\\OrangeHRM\\src\\main\\java\\com\\qa\\config\\config.properties";
-			String FilePath = "E:\\Git Repo\\DemoRepo\\OrangeHRM\\src\\main\\java\\com\\qa\\config\\config.properties";
+			String FilePath = "E:\\Git_Repo\\OrangeHRM\\OrangeHRM\\src\\main\\java\\com\\qa\\config\\config.properties";
 			File scr = new File(FilePath);
 			FileInputStream fs = new FileInputStream(scr);
 			pro = new Properties();

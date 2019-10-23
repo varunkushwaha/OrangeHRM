@@ -1,6 +1,5 @@
 package com.qa.stepDefination;
 
-import org.openqa.selenium.By;
 import org.testng.asserts.SoftAssert;
 
 import com.qa.page.LoginPage;

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24621" started-at="2019-10-22T23:45:49 IST" finished-at="2019-10-22T23:46:14 IST">
+  <suite name="Suite" duration-ms="70419" started-at="2019-10-23T09:28:20 IST" finished-at="2019-10-23T09:29:30 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24621" started-at="2019-10-22T23:45:49 IST" finished-at="2019-10-22T23:46:14 IST">
+    <test name="Test" duration-ms="70419" started-at="2019-10-23T09:28:20 IST" finished-at="2019-10-23T09:29:30 IST">
       <class name="com.qa.runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qa.runner.TestRunner@10b48321]" name="setUpClass" is-config="true" duration-ms="441" started-at="2019-10-22T23:45:49 IST" finished-at="2019-10-22T23:45:50 IST">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qa.runner.TestRunner@64d7f7e0]" name="setUpClass" is-config="true" duration-ms="795" started-at="2019-10-23T09:28:20 IST" finished-at="2019-10-23T09:28:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.runner.TestRunner@10b48321]" name="feature" duration-ms="22944" started-at="2019-10-22T23:45:50 IST" data-provider="features" finished-at="2019-10-22T23:46:13 IST">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.runner.TestRunner@64d7f7e0]" name="feature" duration-ms="52542" started-at="2019-10-23T09:28:21 IST" data-provider="features" finished-at="2019-10-23T09:29:14 IST">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.runner.TestRunner@10b48321]" name="tearDownClass" is-config="true" duration-ms="975" started-at="2019-10-22T23:46:13 IST" finished-at="2019-10-22T23:46:14 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.runner.TestRunner@64d7f7e0]" name="tearDownClass" is-config="true" duration-ms="16178" started-at="2019-10-23T09:29:14 IST" finished-at="2019-10-23T09:29:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.qa.runner.TestRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

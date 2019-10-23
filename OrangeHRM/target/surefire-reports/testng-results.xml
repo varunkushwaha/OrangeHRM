@@ -2,16 +2,31 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="17420" started-at="2019-10-01T00:32:17Z" finished-at="2019-10-01T00:32:35Z">
+  <suite name="Suite" duration-ms="28932" started-at="2019-10-22T19:26:22Z" finished-at="2019-10-22T19:26:51Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="17420" started-at="2019-10-01T00:32:17Z" finished-at="2019-10-01T00:32:35Z">
-      <class name="com.qa.page.Testclass">
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.qa.page.Testclass@5dfcfece]" name="test1" duration-ms="17406" started-at="2019-10-01T06:02:18Z" finished-at="2019-10-01T06:02:35Z">
+    <test name="Test" duration-ms="28932" started-at="2019-10-22T19:26:22Z" finished-at="2019-10-22T19:26:51Z">
+      <class name="com.qa.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qa.runner.TestRunner@1b604f19]" name="setUpClass" is-config="true" duration-ms="554" started-at="2019-10-23T00:56:22Z" finished-at="2019-10-23T00:56:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- com.qa.page.Testclass -->
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.runner.TestRunner@1b604f19]" name="feature" duration-ms="26029" started-at="2019-10-23T00:56:23Z" data-provider="features" finished-at="2019-10-23T00:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OrangeHrm Application Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.runner.TestRunner@1b604f19]" name="tearDownClass" is-config="true" duration-ms="2114" started-at="2019-10-23T00:56:49Z" finished-at="2019-10-23T00:56:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.runner.TestRunner -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

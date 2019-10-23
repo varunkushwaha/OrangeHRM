@@ -1,1 +1,3 @@
-com\qa\page\Testclass.class
+com\qa\testbase\TestBase.class
+com\qa\page\LoginPage.class
+com\qa\runner\TestRunner.class
